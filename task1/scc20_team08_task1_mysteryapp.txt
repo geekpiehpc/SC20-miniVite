@@ -1,0 +1,25 @@
+
+Trying to achieve equal edge distribution across processes.
+
+-------------------------------------------------------
+Graph edge distribution characteristics
+-------------------------------------------------------
+Number of vertices: 65608366
+Number of edges: 3612134270
+Maximum number of edges: 15052575
+Average number of edges: 1.50506e+07
+Expected value of X^2: 2.26519e+14
+Variance: 9.79605e+06
+Standard deviation: 3129.86
+-------------------------------------------------------
+Time to read input file and create distributed graph (in s): 314.349
+-------------------------------------------------------
+File: ../datasets/com-friendster.ungraph.bin
+-------------------------------------------------------
+-------------------------------------------------------
+64-bit datatype
+-------------------------------------------------------
+Average total time (in s), #Processes: 333.081, 240
+Modularity, #Iterations: 0.588858, 29
+MODS (final modularity * average time): 196.137
+-------------------------------------------------------

@@ -1,0 +1,1 @@
+`which mpirun` --hostfile ./hostfile -n 240 -map-by core -ppn 1 -print-rank-map ./miniVite -f ../datasets/com-orkut.ungraph.bin  -t 0.001 -b

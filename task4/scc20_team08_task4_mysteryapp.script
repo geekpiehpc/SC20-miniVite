@@ -1,0 +1,11 @@
+export n_vs=1048576
+for t in 2
+do
+export nods=$((t))
+export procs=$((t*32))
+export n_v=$(($n_vs*$t))
+export BIN_ARGS_1="-l -w -n $n_v -t 0.02"
+export BIN_ARGS_2="-l -w -p 5 -n $n_v -t 0.02"
+`which mpiexec` -n $procs ./miniVite $BIN_ARGS_1
+`which mpiexec` -n $procs ./miniVite $BIN_ARGS_2
+done

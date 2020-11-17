@@ -1,0 +1,1 @@
+`which mpirun` --hostfile ./hostfile -n 240 -map-by core -ppn 1 -print-rank-map ./miniVite -f ../datasets/com-friendster.ungraph.bin  -t 0.0015 -b

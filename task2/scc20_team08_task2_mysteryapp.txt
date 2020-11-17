@@ -1,0 +1,27 @@
+
+Trying to achieve equal edge distribution across processes.
+
+-------------------------------------------------------
+Graph edge distribution characteristics
+-------------------------------------------------------
+Number of vertices: 3072441
+Number of edges: 234370166
+Maximum number of edges: 981522
+Average number of edges: 976542
+Expected value of X^2: 9.53641e+11
+Variance: 5.81234e+06
+Standard deviation: 2410.88
+-------------------------------------------------------
+Time to read input file and create distributed graph (in s): 7.02374
+-------------------------------------------------------
+File: ../datasets/com-orkut.ungraph.bin
+-------------------------------------------------------
+-------------------------------------------------------
+64-bit datatype
+-------------------------------------------------------
+Average total time (in s), #Processes: 21.194, 240
+Modularity, #Iterations: 0.615364, 40
+MODS (final modularity * average time): 13.042
+-------------------------------------------------------
+
+

@@ -1,0 +1,21 @@
+Average time to generate 65536 random numbers using LCG (in s): 0.000997656
+
+-------------------------------------------------------
+Graph edge distribution characteristics
+-------------------------------------------------------
+Number of vertices: 1048576
+Number of edges: 10308788
+Maximum number of edges: 324236
+Average number of edges: 322150
+Expected value of X^2: 1.03782e+11
+Variance: 1.91236e+06
+Standard deviation: 1382.88
+-------------------------------------------------------
+Time to generate distributed graph of 1048576 vertices (in s): 5.1873
+-------------------------------------------------------
+64-bit datatype
+-------------------------------------------------------
+Average total time (in s), #Processes: 0.254284, 32
+Modularity, #Iterations: 0.718774, 9
+MODS (final modularity * average time): 0.182773
+-------------------------------------------------------
